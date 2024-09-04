@@ -1,5 +1,6 @@
 import Header from './Components/Header';
 import side from '../src/assets/Remove-bg.ai_1724176976726.png'
+import voyago from '../src/assets/dashboard-logo.png'
 
 export default function App() {
 
@@ -34,11 +35,11 @@ export default function App() {
             <div className = 'projects-grid container'>
               <div className = 'project-box'>
                 <div>
-                  <img src = {side} alt = 'project'></img>
+                  <img className='project-image' src = {voyago} alt = 'project'></img>
                 </div>
                 <div className = 'text-box'>
                   <h3>Voyago</h3>
-                  <a href = 'https://zaid123421.github.io/Voyago-Dashboard/' target = '_blank' rel = 'noreferrer'>
+                  <a href = 'https://voyago-dashboard.vercel.app/' target = '_blank' rel = 'noreferrer'>
                     Browse The Project
                     <i className = "fa-solid fa-arrow-up-long"></i>
                   </a>
